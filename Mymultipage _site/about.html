@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    p>Enter a number and click OK:</p>
+
+    <input id="id1" type="number" max="100">
+    <button onclick="myFunction()">OK</button>
+
+    <p>If the number is greater than 100 (the input's max attribute), an error message will be displayed.</p>
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            let text;
+            if (document.getElementById("id1").validity.rangeOverflow) {
+                text = "Value too large";
+            } else {
+                text = "Input OK";
+            }
+            document.getElementById("demo").innerHTML = text;
+        }
+    </script>
+
+    <h1>how people aacess the web</h1>
+    <p>
+        Browsers People access websites using software called a web browser. Popular examples include Firefox, Internet Explorer, Safari, Chrome, and Opera. In order to view a web page, users might type a web address into their browser, follow a link from another
+        site, or use a bookmark. Software manufacturers regularly release new versions of browsers with new features and supporting new additions to languages. It is important, however, to remember that many computer owners will not be running the latest
+        versions of these browsers. Therefore you cannot rely on all visitors to your site being able to use the latest functionality offered in all browsers. You will learn how to tell which browsers visitors use to access your website in Chapter 19.
+        Web Servers When you ask your browser for a web page, the request is sent across the Internet to a special computer known as a web server which hosts the website. Web servers are special computers that are constantly connected to the Internet,
+        and are optimized to send web pages out to people who request them. Some big companies run their own web servers, but it is more common to use the services of a web hosting company who charge a fee to host your site. Devices People are accessing
+        websites on an increasing range of devices including desktop computers, laptops, tablets, and mobile phones. It is important to remember that various devices have different screen sizes and some have faster connections to the web than others.
+        Screen readers Screen readers are programs that read out the contents of a computer screen to a user. They are commonly used by people with visual impairments. In the same way that many countries have legislations that require public buildings
+        to be accessible to those with disabilities, many laws have also been passed that require websites be accessible to those with disabilities. Throughout this book you will see several references to screen readers. These notes will help ensure that
+        the sites you create are accessible to people who use such software. It is interesting to note that technologies similar to those employed by screen readers are also being used in other areas where people are unable read a screen, such as when
+        they are driving or jogging. Before we look at the code used to build websites it is important to consider the different ways in which people access the web and clarify some terminology.
+
+    </p>
+    <button onclick="myFunction()">Go Back</button>
+
+    <script>
+        function myFunction() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

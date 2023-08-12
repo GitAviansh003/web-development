@@ -1,0 +1,80 @@
+
+                                                                    body {
+                                                                        width: auto;
+                                                                        height: auto;
+                                                                    }
+                                                                    
+                                                                    #content {
+                                                                        overflow: auto;
+                                                                        height: 100%;
+                                                                    }
+                                                                    
+                                                                    div.header {
+                                                                        display: inline-block;
+                                                                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                                                                        border: 1px solid black;
+                                                                        margin-top: 0px 10px 75px 100px;
+                                                                        width: 100%;
+                                                                        background-color: green;
+                                                                        color: rgb(207, 204, 204);
+                                                                        text-align: left;
+                                                                    }
+                                                                    
+                                                                    .column1,
+                                                                    .column2,
+                                                                    .column3 {
+                                                                        background-color: #efefef;
+                                                                        width: 300px;
+                                                            
+                                                                        margin: 10px;
+                                                                
+                                                                    }
+                                                                    
+                                                                    .button1 {
+                                                                        background-color: #a5a730;
+                                                                        cursor: pointer;
+                                                                    }
+                                                                    
+                                                                    .button2 {
+                                                                        background-color: #008CBA;
+                                                                        cursor: pointer;
+                                                                    }
+                                                                    
+                                                                    .button3 {
+                                                                        background-color: #f44336;
+                                                                        cursor: pointer;
+                                                                    }
+                                                                    
+                                                                    .button4 {
+                                                                        background-color: #e7e7e7;
+                                                                        color: black;
+                                                                        cursor: pointer;
+                                                                    }
+                                                                    
+                                                                    .button5 {
+                                                                        background-color: #555555;
+                                                                        color: white;
+                                                                        cursor: pointer;
+                                                                    }
+                                                                    
+                                                                    div.jumbotron {
+                                                                        font-family: monospace;
+                                                                        text-align: center;
+                                                                    }
+                                                                    
+                                                                    .marqu1 {
+                                                                        background-color: black;
+                                                                        color: white;
+                                                                        text-decoration-color: tomato;
+                                                                    }
+                                                                    
+                                                                    #home {
+                                                                        width: 46px;
+                                                                        height: 44px;
+                                                                        background: url(img_navsprites.gif) 0 0;
+                                                                    }
+                                                                    footer{
+                                                                        display: flex;
+                                                                        justify-content: flex-end;
+                                                                    
+                                                                    }
